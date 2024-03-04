@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI="mongodb://gofood:password@ac-l80frdq-shard-00-00.vu6gyjc.mongodb.net:27017,ac-l80frdq-shard-00-01.vu6gyjc.mongodb.net:27017,ac-l80frdq-shard-00-02.vu6gyjc.mongodb.net:27017/gofoodmern?ssl=true&replicaSet=atlas-29atzo-shard-0&authSource=admin&retryWrites=true&w=majority"
+const mongoURI="mongodb://project:pass@ac-l80frdq-shard-00-00.vu6gyjc.mongodb.net:27017,ac-l80frdq-shard-00-01.vu6gyjc.mongodb.net:27017,ac-l80frdq-shard-00-02.vu6gyjc.mongodb.net:27017/gofoodmern?ssl=true&replicaSet=atlas-29atzo-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 
 const mongoDB = async () => {
